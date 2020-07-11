@@ -1,0 +1,12 @@
+mysql:
+  image: mysql:8.0.20
+  ports:
+    - "3306:3306"
+  environment:
+    - MYSQL_ROOT_PASSWORD=
+    - MYSQL_ALLOW_EMPTY_PASSWORD=true
+    - MYSQL_USER=todo
+    - MYSQL_PASSWORD=todo
+    - MYSQL_DATABASE=todo
+  volumes:
+    - "./conf.d:/etc/mysql/conf.d:ro"
