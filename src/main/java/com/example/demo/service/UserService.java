@@ -8,4 +8,6 @@ public interface UserService {
 
   List<UserDto> getUsers();
 
+  UserDto signup(UserDto userDto);
+
 }
