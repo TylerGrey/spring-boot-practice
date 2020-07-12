@@ -1,8 +1,5 @@
 package com.example.demo.exception;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class CustomizedException {
 
   public static RuntimeException throwException(ExceptionType exceptionType, String message) {

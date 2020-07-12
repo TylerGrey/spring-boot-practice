@@ -29,8 +29,8 @@ public class Response<T> {
   }
 
   public void addErrorMsgToResponse(String errorMsg, Exception exception) {
-    ResponseError error = new ResponseError().setDetails(exception.getCause().getMessage())
-        .setMessage(exception.getMessage()).setTimestamp(new Date());
+    ResponseError error = new ResponseError().setDetails(errorMsg).setMessage(exception.getMessage())
+        .setTimestamp(new Date());
     setErrors(error);
   }
 
