@@ -15,4 +15,3 @@
 
 - [string boot starter](https://medium.com/the-resonant-web/spring-boot-2-0-project-structure-and-best-practices-part-2-7137bdcba7d3)
 - [spring boot JWT](https://mangkyu.tistory.com/57)
-
