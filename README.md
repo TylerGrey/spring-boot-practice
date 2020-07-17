@@ -10,6 +10,7 @@
 ### JPA
 
 - [JPA Repository](https://jobc.tistory.com/120)
+- [Paging Entity to DTO](https://heowc.tistory.com/65)
 
 ### String boot
 
