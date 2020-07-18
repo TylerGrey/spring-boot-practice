@@ -16,9 +16,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * 
  * JPA 공통 Entity
- * 
+ *
  * @author Tyler Grey
  */
 @Getter
@@ -26,18 +25,18 @@ import lombok.Setter;
 @MappedSuperclass
 public class BaseEntity implements Serializable {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-  @CreationTimestamp
-  @Column(name = "created_at")
-  private LocalDateTime createdAt;
+    @CreationTimestamp
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
 
-  @UpdateTimestamp
-  @Column(name = "updated_at")
-  private LocalDateTime updatedAt;
+    @UpdateTimestamp
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
 
-  @Column(name = "deleted_at")
-  private LocalDateTime deletedAt;
+    @Column(name = "deleted_at")
+    private LocalDateTime deletedAt;
 }

@@ -17,17 +17,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/v1/user")
 public class UserController {
 
-  @Autowired
-  UserService userService;
+    @Autowired
+    UserService userService;
 
-  @GetMapping("/users")
-  public Response getUsers() {
-    return Response.ok().setPayload(userService.getUsers());
-  }
+    @GetMapping("/users")
+    public Response getUsers() {
+        return Response.ok().setPayload(userService.getUsers());
+    }
 
-  @PostMapping("/signup")
-  public Response signup(@RequestBody UserSignupRequest userSignupRequest) {
-    UserDto userDto = new UserDto().setEmail(userSignupRequest.getEmail()).setPassword(userSignupRequest.getPassword());
-    return Response.ok().setPayload(userService.signup(userDto));
-  }
+    @PostMapping("/signup")
+    public Response signup(@RequestBody UserSignupRequest userSignupRequest) {
+        UserDto userDto = new UserDto().setEmail(userSignupRequest.getEmail()).setPassword(userSignupRequest.getPassword());
+        return Response.ok().setPayload(userService.signUp(userDto));
+    }
 }

@@ -6,8 +6,8 @@ import com.example.demo.dto.model.user.UserDto;
 
 public interface UserService {
 
-  List<UserDto> getUsers();
+    List<UserDto> getUsers();
 
-  UserDto signup(UserDto userDto);
+    UserDto signUp(UserDto userDto);
 
 }

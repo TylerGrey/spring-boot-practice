@@ -10,7 +10,7 @@ import lombok.experimental.Accessors;
 @Setter
 @Accessors(chain = true)
 public class ResponseError {
-  private Date timestamp;
-  private String message;
-  private String details;
+    private Date timestamp;
+    private String message;
+    private String details;
 }

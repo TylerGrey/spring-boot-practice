@@ -11,8 +11,6 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 @Entity
 public class User extends BaseEntity {
-
-  private String email;
-  private String password;
-
+    private String email;
+    private String password;
 }

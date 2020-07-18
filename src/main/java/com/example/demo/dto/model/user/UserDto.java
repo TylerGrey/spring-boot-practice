@@ -12,6 +12,6 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @ToString
 public class UserDto {
-  private String email;
-  private String password;
+    private String email;
+    private String password;
 }
