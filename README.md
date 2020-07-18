@@ -10,7 +10,9 @@
 ### JPA
 
 - [JPA Repository](https://jobc.tistory.com/120)
+- [Paging Entity to DTO](https://heowc.tistory.com/65)
 
 ### String boot
 
 - [string boot starter](https://medium.com/the-resonant-web/spring-boot-2-0-project-structure-and-best-practices-part-2-7137bdcba7d3)
+- [spring boot JWT](https://mangkyu.tistory.com/57)
