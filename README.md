@@ -11,6 +11,7 @@
 
 - [JPA Repository](https://jobc.tistory.com/120)
 - [Paging Entity to DTO](https://heowc.tistory.com/65)
+- [JPA Gitbook](https://ultrakain.gitbooks.io/jpa/content/chapter1/chapter1.html)
 
 ### String boot
 
